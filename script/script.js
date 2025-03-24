@@ -4,7 +4,7 @@ document.getElementById('search-btn').addEventListener('click', function() {
 });
 
 async function fetchMatches(teamName) {
-    const apiKey = '02dd06d003c34afda2461c681f230023'; // Replace with your Football-Data API key
+    const apiKey = 'My-API-KEY'; 
     const url = `https://api.football-data.org/v4/matches?team=${teamName}`;
 
     const response = await fetch(url, {
